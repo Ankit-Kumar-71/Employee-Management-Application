@@ -1,0 +1,15 @@
+# === Frontend ignore rules ===
+/Employee Management App/node_modules/
+/Employee Management App/dist/
+Employee Management App/.env
+
+# === Backend ignore rules ===
+/Employee-Management-API/target/
+Employee-Management-API/src/main/resources/application.properties
+Employee-Management-API/src/main/resources/application-*.properties
+
+# === Common IDE/editor/system rules ===
+.idea/
+.vscode/
+.DS_Store
+*.log
