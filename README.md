@@ -1,1 +1,0 @@
-# This is employee management full stack project

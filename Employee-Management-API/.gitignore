@@ -11,6 +11,61 @@ target/
 .project
 .settings
 .springBeans
+# === Java/Maven General Ignore ===
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# === Maven Target Directory ===
+/target/
+
+# === Eclipse IDE ===
+.classpath
+.project
+.settings/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VS Code ===
+.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Environment & Secrets ===
+.env
+application-dev.properties
+application-test.properties
+application-prod.properties
+*.properties.local
+
+# === Others ===
+*.tmp
+*.bak
+*.old
+
 .sts4-cache
 
 ### IntelliJ IDEA ###

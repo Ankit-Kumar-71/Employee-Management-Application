@@ -3,7 +3,7 @@ import React from "react";
 const Navber = () => {
   return (
     <div className="bg-slate-600 h-12  px-8 items-center flex">
-      <h1 className="text-3xl font-bold text-green-700">Employee Management Service</h1>
+      <h1 className="text-3xl font-bold text-green-700">Employee Management Application</h1>
       <div className="space-x-4 ml-auto">
         <a className="hover:text-blue-400" href="/">
           Home
