@@ -57,7 +57,7 @@ surefire-reports/
 *.orig
 
 # Ignore the sensitive application.properties file
-Employee-Management-API/src/main/resources/application.properties
+src/main/resources/application.properties
 
 # Ignore the entire target build directory
-Employee-Management-API/target/
+/target/
