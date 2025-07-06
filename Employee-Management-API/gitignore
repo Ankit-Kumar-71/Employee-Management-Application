@@ -21,9 +21,6 @@ replay_pid*
 .DS_Store
 Thumbs.db
 
-# Build outputs
-/target/
-/build/
 
 ### Maven ###
 .mvn/
@@ -47,13 +44,6 @@ build/
 logs/
 *.out
 
-### Spring Boot ###
-# Application config (sensitive)
-src/main/resources/application.properties
-src/main/resources/application.yml
-src/main/resources/application-*.properties
-src/main/resources/application-*.yml
-
 ### Testing ###
 test-output/
 surefire-reports/
@@ -65,3 +55,13 @@ surefire-reports/
 *.bak
 *.tmp
 *.orig
+
+# Spring Boot config
+**/application.properties
+**/application-*.properties
+**/application.yml
+**/application-*.yml
+
+# Ignore build output
+/target/
+build/
