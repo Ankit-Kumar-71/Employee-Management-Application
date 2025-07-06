@@ -56,12 +56,8 @@ surefire-reports/
 *.tmp
 *.orig
 
-# Spring Boot config
-**/application.properties
-**/application-*.properties
-**/application.yml
-**/application-*.yml
+# Ignore the sensitive application.properties file
+src/main/resources/application.properties
 
-# Ignore build output
+# Ignore the entire target build directory
 /target/
-build/
