@@ -1,6 +1,6 @@
-package beckend.services;
+package backend.services;
 
-import beckend.modals.Employee;
+import backend.modals.Employee;
 
 import java.util.List;
 

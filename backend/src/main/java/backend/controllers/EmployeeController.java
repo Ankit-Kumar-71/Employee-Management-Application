@@ -1,7 +1,7 @@
-package beckend.controllers;
+package backend.controllers;
 
-import beckend.modals.Employee;
-import beckend.services.EmployeeService;
+import backend.modals.Employee;
+import backend.services.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

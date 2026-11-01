@@ -1,4 +1,4 @@
-package beckend.modals;
+package backend.modals;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,8 +1,8 @@
-package beckend.seviceImpls;
+package backend.seviceImpls;
 
-import beckend.modals.Employee;
-import beckend.repositories.EmployeeRepository;
-import beckend.services.EmployeeService;
+import backend.modals.Employee;
+import backend.repositories.EmployeeRepository;
+import backend.services.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
